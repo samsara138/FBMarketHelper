@@ -1,0 +1,7 @@
+{
+    "Email" : "YOUR EMAIL HERE",
+    "Password" : "YOUR PASSWORD HERE",
+    "Headless" : true,
+    "TargetMsg" : "still available?",
+    "Respond" : "Yes"
+}
