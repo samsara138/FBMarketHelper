@@ -24,7 +24,7 @@ The program login to facebook messenger and go to Facebook Marketplace chat.
 
 The *TargetMsg* in *config.json* shows the substring the program tries to find, this is often "is this available?"
 
-It constantly check (with small delay for performance) if the latest message of a chat includes that substring
+It constantly check (with small delay for performance) if the latest message of a conversation includes that substring
 
 So if someone send your "Hi Samsara, is this still available?", that message would be the latest message of the conversation, which have the *TargetMsg* included as a substring, this will trigger the program and report a hit
 
