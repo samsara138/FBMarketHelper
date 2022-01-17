@@ -4,7 +4,13 @@ FBMarketHelper is an simple web automation program that help you deal with the a
 ## Prepping envrioment
 To install requirments
 ```bash
-pip3 -r requirements.txt
+pip3 install -r requirements.txt
+```
+
+Download Chrome and installing 
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
 You'll need Google Chrome installed on your computer and the chrome webdriver where you can download [here](https://chromedriver.chromium.org/downloads)
