@@ -89,11 +89,13 @@ def load_json():
 	with open("config.json","r") as configFile:
 		configData = json.load(configFile)
 
+	print("********Data in config.json********")
 	print("Your email:",configData["Email"])
 	print("Your password:",configData["Password"])
 	print("Hide browzer:",configData["Headless"])
 	print("Checking for message:",configData["TargetMsg"])
 	print("You will reply:",configData["Respond"])
+	print("***********************************\n\n")
 
 def main():
 	load_json()
